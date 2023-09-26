@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:white;
+}
+#ssA50s{
+    height:158.5mm;
+    width:74.5mm;
+    background-image: url('img/baiDaSongHong.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:6px;
+}
+
+.header .taiTho{
+    background-color: black;
+    height: 0.75cm;
+    width: 0.75cm;
+    border-radius: 50%;
+    position: relative;
+}
+.header .taiTho:after{
+    content: '';
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.356);
+    height: 0.3cm;
+    width: 0.3cm;
+    border-radius: 50%;
+    top:50%;
+    transform: translateY(-50%);
+    left:30%;
+}
+.cotSong-phanTramPin{
+    position: relative;
+}
+.fa-battery-full{
+    position: absolute;
+    transform: rotate(-90deg);
+    right:35px;
+}
+.iconKhoa{
+    text-align: center;
+    margin: 0.5cm;
+}
+.Oclock{
+    text-align: center;
+    font-size: 300px;
+}
+
+#clock {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+}
+.vanTay{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.vanTay .fa-fingerprint{
+    position: absolute;
+    top: 6cm;
+    font-size: 30px;
+    color:rgb(40, 219, 34);
+}
