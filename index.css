@@ -13,6 +13,26 @@ body{
     background-position: center;
     background-size: cover;
     border-radius: 20px;
+    border:0.3cm solid black;
+    position: relative;
+}
+.nut{
+    background-color: black;
+    position: absolute;
+    right:-15px;
+    top:10%;
+    
+}
+.congTru{
+    width: 10px;
+    height:100px ;
+}
+.nguon{
+        width: 10px;
+        height: 50px;
+        position: absolute;
+        top:35%
+
 }
 .header{
     display: flex;

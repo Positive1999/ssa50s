@@ -6,6 +6,7 @@ function updateClock() {
     var seconds = currentTime.getSeconds();
     var day = currentTime.getDate();
     var month = currentTime.getMonth() + 1; // Tháng bắt đầu từ 0, nên cần cộng 1
+    
 
     hours = formatTime(hours);
     minutes = formatTime(minutes);
