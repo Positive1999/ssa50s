@@ -85,10 +85,24 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 .vanTay .fa-fingerprint{
     position: absolute;
     top: 6cm;
     font-size: 30px;
     color:rgb(40, 219, 34);
+}
+.footer{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    bottom:-8cm;
+    
+}
+.footer .fa-camera{
+   margin-left: 8px; 
+}
+.footer .fa-bolt{
+   margin-right: 8px; 
 }
