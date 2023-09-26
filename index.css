@@ -4,6 +4,7 @@ body{
     align-items: center;
     height: 100vh;
     color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #ssA50s{
     height:158.5mm;
@@ -43,7 +44,7 @@ body{
 .fa-battery-full{
     position: absolute;
     transform: rotate(-90deg);
-    right:35px;
+    right:37px;
 }
 .iconKhoa{
     text-align: center;
